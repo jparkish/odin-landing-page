@@ -1,0 +1,31 @@
+.body {
+    font-family: sans-serif;
+}
+.topg {
+    background-color: #1F2937
+}
+
+.topg2 {
+    display: flex;
+    margin: 0;
+    padding: 8px, 16px;
+    gap: 10px;
+}
+
+.head {
+    display: flex;
+    flex: 2;
+    justify-content: space-around;
+    color: #E5E7EB;
+    font-size: 18px;
+    margin: 0;
+    padding: 8px, 16px;
+    gap: 10px;
+}
+
+.header {
+    font:bold;
+    font-size: 24px;    
+    color: #F9FAF8;
+    
+}
