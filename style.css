@@ -1,14 +1,25 @@
+*{
+    padding: 0;
+    margin:0;
+}
+
 body {
-    background-color: #1F2937;
     font-family: sans-serif;
+    background-color: #1F2937;
+    width: 100%;
+  height: 100vh;
+
+}
+
+.header, .top{
     margin-left: 100px;
     margin-right: 100px;
-    overflow: hidden;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
+    
 }
 
 .hleft{
@@ -33,6 +44,7 @@ ul {
     justify-content: space-around;
     margin-top: 40px;
     padding: 10px;
+    
   
 }
 
@@ -69,4 +81,40 @@ img {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    
+}
+
+.mid {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px;
+}
+
+.rando {
+    font-size: 36px;
+    font-weight: bolder;
+    color:#1F2937;
+    text-align: center;
+    padding: 20px;
+}
+
+#cake {
+    width: 150px;
+  height: 150px;
+  border-radius: 8px;
+  border:#3882F6;
+  border-style: dashed;
+}    
+
+.boxcontainer {
+    max-width: 200px;
+    text-align: center;
+}
+
+.text2 {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
 }
